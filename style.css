@@ -1,0 +1,77 @@
+
+
+html{
+    --color: rgb(148, 25, 25);
+}
+header{
+    padding-left: 5px;
+}
+header nav{
+    padding-left: 10px;
+    border-left: 5px solid var(--color) ;
+}
+
+header nav h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 50%;
+    color: var(--color);
+}
+
+main{
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+ main #row1 {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ main #row2 {
+    justify-content: space-between;
+    padding-top: 40px;
+    display: flex;
+ }
+
+.col{
+    
+   margin: 0;
+    padding:0;
+}
+
+.col .card {
+    width: 450px;
+    display: inline-block;
+    box-shadow: none ;
+    border: none ;
+}
+
+
+p{
+    padding-top: 15px;
+}
+
+.col img{
+
+    border: none;
+    height: 200px;
+    width: 100%;
+    justify-content:space-between;
+}
+
+main ul{
+    padding:0;
+    }
+
+#icon{
+    margin-right: 10px;
+    color: var(--color);
+    height: 15px;
+}
+
+main h4{
+    font-weight: bold;
+    padding-top: 10px;
+    font-size: 1.2rem;
+}
