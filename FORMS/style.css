@@ -54,14 +54,17 @@ hr {
     width: auto; 
     margin-left: 20px;
     padding:5px;
+    position: relative;
+    right: 358px;
 }
 
-.form-group input[type="radio"], .form-group input[type="checkbox"] {
+/* .form-group input[type="radio"], .form-group input[type="checkbox"] {
+    display: block;
     margin-top: 5px; 
     align-self: flex-start; 
     margin-right: 10px; 
     flex: 0; 
-}
+} */
 
 
 
